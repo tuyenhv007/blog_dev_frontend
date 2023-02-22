@@ -14,4 +14,4 @@ use App\Http\Controllers\UserController;
 |
 */
 
-Route::get('/demo', [UserController::class,'index'])->name('userIndex');
+Route::get('/', [UserController::class,'index'])->name('userIndex');
